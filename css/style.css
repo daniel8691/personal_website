@@ -12,6 +12,12 @@ body {
 	background: #fff;
 }
 
+/* li {
+    margin: 0;
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+} */
+
 body a,
 .slider-info a {
 	transition: 0.5s all;
@@ -26,6 +32,14 @@ body a,
 button,
 .btn {
 	cursor:pointer !important;
+}
+
+.skill_list {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+a.skill_list {
+    color: #4a9aca;
 }
 
 h1,
