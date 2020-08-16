@@ -47,6 +47,39 @@ a.skill_list {
     display:inline;
 }
 
+/* .menu li{
+    margin-top: 0.5em;
+} */
+
+#nav-list li {
+    margin-top:0.5 em;
+}
+
+.project-description li {
+    list-style-type: circle;
+    margin-left: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.project-subheadings {
+    color : inherit;
+}
+
+
+ul.project-nested-list li{
+    list-style-type:square;
+}
+
+img#project-loan-image {
+    position: absolute;
+    top:85px;
+    right: 18px;
+}
+
+li.project-list-anchorlinks a {
+    color : inherit;
+}
+
 
 h1,
 h2,
@@ -538,7 +571,7 @@ ul.list-unstyled li {
     background:  #1564c0;
 }
 
-.news p {
+.news p li{
     color: #999;
     letter-spacing: 1px;
     font-size: 17px;
