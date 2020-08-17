@@ -1,38 +1,9 @@
 /*--Author: W3Layouts
 	Author URL: http://w3layouts.com
 	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
+    License URL: http://creativecommons.org/licenses/by/3.0/
+    
  --*/
-html {
-  scroll-behavior: smooth;
-}
-body {
-	margin: 0;
-	font-family: 'Lato', sans-serif;
-	background: #fff;
-}
-
-/* li {
-    margin: 0;
-	font-family: 'Lato', sans-serif;
-	background: #fff;
-} */
-
-body a,
-.slider-info a {
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-	text-decoration: none;
-	outline: none;
-	cursor:pointer !important;
-}
-button,
-.btn {
-	cursor:pointer !important;
-}
 
 .skill_list {
     margin:0;
@@ -70,15 +41,51 @@ ul.project-nested-list li{
     list-style-type:square;
 }
 
-img#project-loan-image {
+/* img#project-loan-image {
     position: absolute;
     top:85px;
     right: 18px;
-}
+} */
 
 li.project-list-anchorlinks a {
     color : inherit;
 }
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+}
+
+/* li {
+    margin: 0;
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+} */
+
+body a,
+.slider-info a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+	outline: none;
+	cursor:pointer !important;
+}
+button,
+.btn {
+	cursor:pointer !important;
+}
+
 
 
 h1,
@@ -269,6 +276,11 @@ li > a:only-child:after {
 --------------------------------------------- */
 
 @media all and (max-width: 768px) {
+    div#project-loan-image {
+        position: absolute;
+        top:85px;
+        right: 18px;
+    }
 
     #logo {
         display: block;
