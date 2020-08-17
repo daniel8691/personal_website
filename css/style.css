@@ -51,6 +51,14 @@ li.project-list-anchorlinks a {
     color : inherit;
 }
 
+.cnn-fakenews {
+    display:table-cell;
+    vertical-align:middle;
+}
+.inner-cnnfakenews {
+    display:inline-block
+}
+
 
 
 
@@ -604,6 +612,7 @@ ul.list-unstyled li {
     border-bottom: solid 3px #f4f4f4;
     margin-bottom: 2.25em;
     padding-bottom: 2.25em;
+    align-items:center;
 }
 .news_top {
     box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
